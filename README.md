@@ -1,9 +1,6 @@
 # Economic Indicators' Effect on the Inflation Rate
 
 **Author:** Thuan Van Le  
-
-**Course:** CS2545 – Data Science  
-**Institution:** University of New Brunswick (UNB), Fredericton  
 **Period Covered:** 2010–2023  
 
 ---
