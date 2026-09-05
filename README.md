@@ -1,63 +1,53 @@
-# Economic Indicators' Effect on the Inflation Rate
+# 📊 Economic Indicators' Effect on the Inflation Rate
 
-**Author:** Thuan Van Le  
-**Period Covered:** 2010–2023  
-
----
-
-## Project Overview
-
-This project examines how key macroeconomic indicators interact with inflation over time. Using World Bank data, the analysis focuses on the relationships between:
-
-- **Inflation (CPI %)**
-- **Real Interest Rate (%)**
-- **Unemployment Rate (%)**
-- **GDP Growth (% Annual)**
-
-The study concentrates primarily on the **United States** and **Canada**, covering the post-financial crisis expansion, the COVID-19 shock (2020), and the subsequent inflation surge (2021–2022).
+This project analyzes the relationships between key **macroeconomic indicators** and the **inflation rate** using World Bank data (2010–2023). The notebook explores how unemployment, GDP growth, and real interest rates interact with inflation, focusing mainly on the **United States** and **Canada**.
 
 ---
 
-## Research Questions
+## 📂 Project Overview
 
-- Do unemployment and inflation move in opposite directions (as suggested by the Phillips Curve)?
-- Does stronger GDP growth tend to coincide with higher inflation?
-- How do real interest rates respond to changes in inflation?
-- How did the COVID-19 pandemic temporarily disrupt these relationships?
-
----
-
-## Dataset
-
-**Source:** [Global Economic Indicators (2010–2025) – World Bank](https://www.kaggle.com/datasets/tanishksharma9905/global-economic-indicators-20102025)
-
-Key variables used:
-- Inflation (CPI %)
-- Unemployment Rate (%)
-- Interest Rate (Real, %)
-- GDP Growth (% Annual)
-
-Analysis window: **2010–2023** (2024–2025 data are incomplete for many countries).
+- An exploratory data analysis of macroeconomic indicators and inflation  
+- Visual insights into inflation, unemployment, GDP growth, and real interest rates  
+- Data cleaning and preparation steps for reliable analysis  
+- Graphical summaries using `matplotlib` and `pandas`  
+- Special focus on the COVID-19 period (2020–2021) and the post-pandemic inflation surge  
 
 ---
 
-## Methodology
+## 🧠 Key Observations
 
-1. Load and clean the World Bank panel dataset
-2. Compute country-level average indicators
-3. Perform time-series visual analysis for the United States and Canada
-4. Examine co-movements between inflation and the other three indicators
-5. Highlight structural breaks around the COVID-19 period
-
----
-
-## Key Findings
-
-- **Unemployment ↔ Inflation:** Outside the pandemic period, the two series generally move in opposite directions, consistent with a short-run Phillips Curve relationship.
-- **GDP Growth ↔ Inflation:** Strong growth episodes (especially the 2021 rebound) are associated with higher inflation, pointing to demand-side pressure.
-- **Real Interest Rates:** Remained low through most of the 2010s and only turned more positive after the 2021–22 inflation surge, illustrating policy lags.
-- **COVID-19 Shock:** Produced a classic demand-shock pattern (collapsing growth, rising unemployment, low inflation), followed by a sharp inflation overshoot during the recovery.
+- Unemployment and inflation generally move in opposite directions (consistent with the Phillips Curve)
+- GDP growth and inflation tend to move together during demand-driven periods
+- Real interest rates remained low through most of the 2010s and only rose after the 2021–22 inflation surge
+- The COVID-19 shock temporarily disrupted the usual relationships between these indicators
 
 ---
 
-## Project Structure
+## 🛠️ Technologies & Features Used
+
+- Python  
+- Jupyter Notebook  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- Data cleaning with `pandas`  
+- Time-series visualizations with `matplotlib.pyplot`  
+- Filtering and subsetting data for country-specific analysis  
+- Summary statistics and correlation insights  
+
+---
+
+## 📊 Sample Visualizations
+
+### 1. Inflation vs Real Interest Rate – Canada (2010–2017)
+Shows the relationship between Canada’s inflation rate and real interest rate during the pre-COVID period.
+
+### 2. Inflation, Unemployment & GDP Growth – United States (2010–2023)
+Illustrates how inflation, unemployment, and GDP growth moved together over time, including the sharp COVID-19 shock and the later inflation spike.
+
+### 3. Inflation, Unemployment & GDP Growth – Canada (2010–2023)
+Comparative view for Canada, highlighting similar patterns to the United States during the pandemic and recovery period.
+
+---
+
+## 📁 Project Structure
