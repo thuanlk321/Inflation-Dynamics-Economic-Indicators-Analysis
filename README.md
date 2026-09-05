@@ -40,7 +40,7 @@ This project analyzes the relationships between key **macroeconomic indicators**
 ## 📊 Sample Visualizations
 
 ### 1. Correlation of Unemployment Rate, GDP Growth with Inflation Rate of Canada (2010–2023)
-![Canada Economic Indicators](Thumbnails/Correlation%20of%20Economic%20Indicators%20with%20inflation%20Rate%20of%20Can.png)
+[![Canada Economic Indicators](Thumbnails/Correlation%20of%20Economic%20Indicators%20with%20inflation%20Rate%20of%20Can.png)](https://github.com/thuanlk321/Inflation-Dynamics-Economic-Indicators-Analysis/tree/main/thumbnails)
 
 Shows how inflation, unemployment, and GDP growth in Canada moved over time.  
 Notable patterns include the sharp drop in GDP growth and rise in unemployment during 2020 (COVID-19), followed by the inflation spike in 2021–2022.
