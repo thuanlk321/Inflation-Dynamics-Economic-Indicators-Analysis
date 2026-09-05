@@ -40,7 +40,7 @@ This project analyzes the relationships between key **macroeconomic indicators**
 ## 📊 Sample Visualizations
 
 ### 1. Correlation of Unemployment Rate, GDP Growth with Inflation Rate of Canada (2010–2023)
-thumbnails/Correlation of Economic Indicators with inflation Rate of Can.png
+![Canada Economic Indicators](thumbnails/Correlation%20of%20Economic%20Indicators%20with%20inflation%20Rate%20of%20Can.png)
 
 Shows how inflation, unemployment, and GDP growth in Canada moved over time.  
 Notable patterns include the sharp drop in GDP growth and rise in unemployment during 2020 (COVID-19), followed by the inflation spike in 2021–2022.
@@ -48,7 +48,7 @@ Notable patterns include the sharp drop in GDP growth and rise in unemployment d
 ---
 
 ### 2. Correlation of Unemployment Rate, GDP Growth with Inflation Rate of USA (2010–2023)
-thumbnails/Correlation of Economic Indicators with inflation Rate of USA.png
+![USA Economic Indicators](thumbnails/Correlation%20of%20Economic%20Indicators%20with%20inflation%20Rate%20of%20USA.png)
 
 Illustrates the relationships among the same indicators for the United States.  
 The chart clearly shows the inverse movement between unemployment and inflation outside the pandemic period, as well as the strong rebound in growth and inflation after 2020.
