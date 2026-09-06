@@ -55,4 +55,40 @@ The chart clearly shows the inverse movement between unemployment and inflation 
 
 ---
 
-## 📁 Project Structure
+🚀 How to Run
+1. Clone the repository
+Bashgit clone https://github.com/your-username/Inflation-Analysis.git
+cd Inflation-Analysis
+
+2. Install required libraries
+Bashpip install pandas numpy matplotlib seaborn jupyter
+
+3. Open the notebook
+Bashjupyter notebook Inflation_Analysis.ipynb
+
+
+📈 Main Conclusions
+
+Unemployment and inflation generally move in opposite directions (Phillips Curve relationship).
+GDP growth and inflation tend to move together during demand-driven periods.
+Real interest rates responded with a lag to the inflation surge.
+The COVID-19 pandemic acted as a clear structural break in the usual relationships.
+
+Future extensions could include a larger set of countries, additional variables (money growth, commodity prices), or formal econometric tests for Granger causality and structural breaks around 2020.
+
+
+📚 Sources
+
+World Bank Open Data – World Development Indicators. https://data.worldbank.org/
+Phillips, A. W. (1958). The Relation between Unemployment and the Rate of Change of Money Wage Rates in the United Kingdom, 1861–1957. Economica.
+Okun, A. M. (1962). Potential GNP: Its Measurement and Significance.
+Bank of Canada and Federal Reserve historical monetary-policy documentation.
+
+
+👤 Author
+Thuan Van Le
+
+Bachelor of Computer Science
+
+University of New Brunswick (UNB)
+
